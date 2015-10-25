@@ -1,0 +1,61 @@
+/* http://www.goldsnip.com  
+   v0.1 | 20151026
+  Marek Matejak
+*/
+@charset "UTF-8";
+
+h1, h3, p {
+	text-align: center;
+}
+.navbar, .navbar-default {
+	border-width: 0px;
+	background-color: #FFFFFF;
+	margin-top: 20px;
+}
+#main {
+	width: 75%;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+footer {
+	margin-top: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #383838;
+	color: #FFFFFF;
+	text-align: center;
+}
+.image-fill {
+	width: 100%;
+}
+#wrapper {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.input
+{
+    border: 1px solid #444444;
+    height:30px;
+    width:223px;
+    float:left;
+    background:url(../images/input.png) no-repeat left top; 
+    font-size:18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input[type="submit"]{
+    background: url(../images/search_button.png) no-repeat scroll 0 0 transparent;
+    border: 1px solid #444444;
+    width:30px;
+    height:32px;
+    float:left;
+    font-size:18px;
+    margin:1px 0 0;
+    cursor:pointer;
+}
+
